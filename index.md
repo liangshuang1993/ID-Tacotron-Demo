@@ -7,8 +7,8 @@ layout: default
 
 <!-- ## Authors
 
-Chenfeng Miao*
-Shuang Liang*
+Shuang Liang
+Chenfeng Miao
 Minchuan Chen
 Jun Ma
 Shaojun Wang
