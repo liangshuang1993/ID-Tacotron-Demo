@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# Audio samples of "Unsupervised Learning For Multi-style Speech Synthesis With Small Dataset"
+# Audio samples of "UNSUPERVISED LEARNING FOR MULTI-STYLE SPEECH SYNTHESIS WITH LIMITED DATA"
 
 <!-- ## Authors
 
@@ -18,8 +18,7 @@ Jing Xiao
 
 ## Abstract
 
-In this paper, we propose an unsupervised method for multi-style speech synthesis with small dataset. We extract style information by using a style encoder in addition to a common sequence-to-sequence text-to-speech model. Specifically, we conduct an instance discriminator to guide our style encoder to learn meaningful style representations from a variety of speech data in an unsupervised manner, which can significantly improve the expressiveness ability of the speech synthesis model. Furthermore, by introducing an information bottleneck layer to the style encoder, irrelevant information can be prevented from flowing into the model, therefore speech quality and style similarity can be improved. Our method still generates desirable speech using a small dataset where the baseline model fails to distinguish different styles. To demonstrate the performance of the proposed method, qualitative experiments are conducted, and the results indicate that our proposed method performs much better than the baseline model, with an ABX test score 0.857 versus 0 in emotional speech synthesis task and 0.525 versus 0.246 in multi-speaker speech synthesis task.
-
+Existing multi-style speech synthesis methods require either style labels or large amounts of unlabeled training data, making data acquisition difficult. In this paper, we present an unsupervised multi-style speech synthesis method that can be trained with limited data. We leverage instance discriminator to guide a style encoder to learn meaningful style representations from a multi-style dataset. Furthermore, we employ information bottleneck to filter out style-irrelevant information in the representations, which can improve speech quality and style similarity. Our method is able to produce desirable speech using a fairly small dataset, where the baseline {GST-Tacotron} fails. ABX tests show that our model significantly outperforms {GST-Tacotron} in both emotional speech synthesis task and multi-speaker speech synthesis task. In addition, we demonstrate that our method is able to learn meaningful style features with only 50 training samples per style.
 
 
 ### Emotional Dataset
